@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "array": "c",
+        "random": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
