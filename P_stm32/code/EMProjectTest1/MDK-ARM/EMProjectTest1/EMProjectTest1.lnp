@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"emprojecttest1\startup_stm32f103xb.o"
+"emprojecttest1\main.o"
+"emprojecttest1\gpio.o"
+"emprojecttest1\usart.o"
+"emprojecttest1\stm32f1xx_it.o"
+"emprojecttest1\stm32f1xx_hal_msp.o"
+"emprojecttest1\stm32f1xx_hal_gpio_ex.o"
+"emprojecttest1\stm32f1xx_hal_tim.o"
+"emprojecttest1\stm32f1xx_hal_tim_ex.o"
+"emprojecttest1\stm32f1xx_hal_uart.o"
+"emprojecttest1\stm32f1xx_hal.o"
+"emprojecttest1\stm32f1xx_hal_rcc.o"
+"emprojecttest1\stm32f1xx_hal_rcc_ex.o"
+"emprojecttest1\stm32f1xx_hal_gpio.o"
+"emprojecttest1\stm32f1xx_hal_dma.o"
+"emprojecttest1\stm32f1xx_hal_cortex.o"
+"emprojecttest1\stm32f1xx_hal_pwr.o"
+"emprojecttest1\stm32f1xx_hal_flash.o"
+"emprojecttest1\stm32f1xx_hal_flash_ex.o"
+"emprojecttest1\stm32f1xx_hal_exti.o"
+"emprojecttest1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "EMProjectTest1\EMProjectTest1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EMProjectTest1.map" -o EMProjectTest1\EMProjectTest1.axf

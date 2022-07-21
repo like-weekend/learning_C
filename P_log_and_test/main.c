@@ -1,9 +1,10 @@
 #include<stdio.h>
 #include"zlog.h"
 #include"gtest.h"
+#include"gtest_s1.h"
 
 // #define LOG_OPEN_ZLOG 1
-#define LOG_OPEN_GOOGLE_TEST 1
+// #define LOG_OPEN_GOOGLE_TEST 1
 
 int add(int a, int b)
 {
@@ -12,7 +13,6 @@ int add(int a, int b)
 
 int main()
 {
-    int a = 10;
 
 #ifdef LOG_OPEN_GOOGLE_TEST
     printf("app start!\n");
@@ -21,6 +21,7 @@ int main()
 #endif
 
 #ifdef LOG_OPEN_ZLOG
+    int a = 10;
     EMlog(LOG_DEBUG, "app start");
     EMlog(LOG_INFO, "A = %d", a);
     EMlog(LOG_WARN, "app warn");
