@@ -25,7 +25,10 @@ emprojecttest1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.
 emprojecttest1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 emprojecttest1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 emprojecttest1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+emprojecttest1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+emprojecttest1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 emprojecttest1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+emprojecttest1\main.o: ../Inc/tim.h
 emprojecttest1\main.o: ../Inc/usart.h
 emprojecttest1\main.o: ../Inc/gpio.h
 emprojecttest1\main.o: D:\program_d\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
